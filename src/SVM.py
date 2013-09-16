@@ -220,7 +220,8 @@ print xave
 
 data =[parseVector(line) for line in open('data.txt')]
 data = np.array(data)
-plot2D(data,xave) 
+plot2D(data,xave)
+
 #(partition_ind,iterable_data,x_var,stat,u,z,rho)
                     
 #data.mapPartitionsWithSplit(f, preservesPartitioning)
